@@ -5,7 +5,7 @@
 (plot-new-window? #t)
 (plot-width 900)
 (plot-height 900)
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (define (draw curve)
   (plot (parametric
          (lambda (t) (vector
